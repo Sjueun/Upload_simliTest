@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+#html, body {
+    position: fixed;
+    left: 35%;
+
+}
+
+#container {
+    display: grid;
+    place-items: center;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 1fr ;
+    width: 590px;
+    height: 925px;
+    background-color: floralwhite;
+    z-index: 1;
+}
+
+
+#question {
+    width: 500px;
+    height: 200px;
+    grid-row: 8 / 12;
+    font-family: 'Jua', sans-serif;
+    color: #ff9494;
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+#choose1 {
+    width: 400px;
+    height: 60px;
+    grid-row: 13 / 15;
+    cursor: pointer;
+    font-family: 'Jua', sans-serif;
+    color: #ff7b7b;
+    font-size: large;
+    background-color: #fff4e6;
+    text-align: center;
+
+
+}
+
+#choose2 {
+    width: 400px;
+    height: 60px;
+    grid-row: 15 / 17;
+    cursor: pointer;
+    font-family: 'Jua', sans-serif;
+    color: #ff7b7b;
+    font-size: large;
+    background-color: #fff4e6;
+    text-align: center;
+
+}
+
+#choose3 {
+    width: 400px;
+    height: 60px;
+    grid-row: 17 / 19;
+    cursor: pointer;
+    font-family: 'Jua', sans-serif;
+    color: #ff7b7b;
+    font-size: large;
+    background-color: #fff4e6;
+    text-align: center;
+
+}
+
+#progress-bar {
+    height: 30px; 
+    width: 1; 
+    background: #ecb7b7; 
+    transition: width 0.3s; 
+    z-index: 10;
+    position: absolute; 
+    left: 7.5%; 
+    bottom: 880px;
+  }
