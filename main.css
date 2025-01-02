@@ -71,7 +71,28 @@ body {
     width: 400%;    /* 1차 메뉴의 너비를 상속 */
   }
 
-  .banner {
+.banner-container {
+  display: flex;
+}
+
+.banner {
     margin-left: 100px;
     object-fit: cover;
-  }
+    width: 50%; /* 이미지 크기 조정 */
+}
+  
+.banner2 {
+    width: 50%; /* 다른 이미지를 위한 크기 */
+    background-image: url('banner_1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* 아이템을 중앙 정렬 */
+    align-items: center; /* 수직 정렬 */
+    flex-wrap: wrap; /* 작은 화면에서 아이템이 줄 바꿈되도록 설정 */
+    gap: 20px; /* 각 div 사이에 간격을 추가 */
+    min-height: 100vh; /* 화면 중앙 정렬을 유지하기 위한 높이 */
+}
